@@ -1,9 +1,9 @@
 fun main(){
-    val age : Int = 45
-    if (age < 18) {
-        println("You are too young")
+    val i = 6
+    if(i%2==0){
+        println("Even number")
     }
     else{
-        println("You can drive")
+        println("Odd number")
     }
 }

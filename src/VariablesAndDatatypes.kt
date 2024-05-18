@@ -1,17 +1,15 @@
-fun main(args:Array<String>){
-    val i : Int = 5
-    val f : Float = 3.14f;
-    val d : Double = 3234234.12342344;
-    val s : String = "Hello"
-    val c : Char = 'c'
-    var arr : Array<Int> = arrayOf(1,2,3,4)
+fun main(){
+    val i : Int = 5;
+    var f : Float = 3.14F;
+    val d : Double = 1323423.234234234;
+    val isTrue : Boolean = false;
+    val s : String = "Hello World";
+    val arr : Array<Int> = arrayOf(1,2,3,34,5,6,7,8)
     println(i)
-    println(f)
-    println(d)
     println(s)
-    println(c)
-    for(i in arr){
+    println(d)
+    println(isTrue)
+    for (i in arr){
         println(i)
     }
-
 }
