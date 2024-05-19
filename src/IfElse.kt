@@ -6,4 +6,7 @@ fun main(){
     else{
         println("Odd number")
     }
+
+    val text : String = if(i>0) "+ve" else "-ve"
+    print(text)
 }
